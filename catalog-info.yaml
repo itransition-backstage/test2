@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-web
+  description: TEST
+spec:
+  type: website
+  lifecycle: production
+  owner: test-group
+  system: test-system
